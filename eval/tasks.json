@@ -1,0 +1,29 @@
+{
+  "plant": "ocs-api-service-develop",
+  "protocol": "Frozen before scored runs. Do not edit query strings after the first scored pass; add a new id instead.",
+  "metrics": ["false_claim_rate", "tokens"],
+  "arms": ["claude_plus_repo", "claude_plus_code_intel"],
+  "tasks": [
+    {"id": "t01", "tool": "lookup", "query": "HomeController"},
+    {"id": "t02", "tool": "lookup", "query": "TaxonomyMappingService"},
+    {"id": "t03", "tool": "lookup", "query": "LearningObjectServiceImpl"},
+    {"id": "t04", "tool": "lookup", "query": "TaxonomyServiceImpl"},
+    {"id": "t05", "tool": "lookup", "query": "EolsCollectionCaseStudyServiceImpl"},
+    {"id": "t06", "tool": "lookup", "query": "CachingConfig"},
+    {"id": "t07", "tool": "lookup", "query": "ThreadPoolConfig"},
+    {"id": "t08", "tool": "lookup", "query": "TopicController"},
+    {"id": "t09", "tool": "lookup", "query": "TopicJDBCRepository"},
+    {"id": "t10", "tool": "lookup", "query": "LearningObjectJDBCRepository"},
+    {"id": "t11", "tool": "lookup", "query": "OpenAPIConfig"},
+    {"id": "t12", "tool": "lookup", "query": "AspectLoggerConfig"},
+    {"id": "t13", "tool": "lookup", "query": "BaseIdObject"},
+    {"id": "t14", "tool": "lookup", "query": "BaseDataObject"},
+    {"id": "t15", "tool": "lookup", "query": "Concept"},
+    {"id": "t16", "tool": "lookup", "query": "BaseVtwObject"},
+    {"id": "t17", "tool": "impact", "query": "HomeController"},
+    {"id": "t18", "tool": "impact", "query": "TaxonomyMappingService"},
+    {"id": "t19", "tool": "impact", "query": "ThreadPoolConfig"},
+    {"id": "t20", "tool": "impact", "query": "LearningObjectServiceImpl"},
+    {"id": "t21", "tool": "verify", "query": "compile"}
+  ]
+}
